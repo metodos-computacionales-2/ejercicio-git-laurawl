@@ -3,6 +3,7 @@
 
 float dia(float x);
 float per(float x);
+float are(float x);
 
 int main(void)
 {
@@ -17,4 +18,7 @@ float dia(float x){
 }
 float per(float x){
     return 2*x*M_PI;
+}
+float are(float x){
+    return x*x*M_PI;
 }
