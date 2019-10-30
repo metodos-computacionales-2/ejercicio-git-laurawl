@@ -16,8 +16,9 @@ int main(void)
     if(r2!=pita(r,r1))
     {
        bool a=false;
+       std::cout<<"Los numeros no representan los lados de un triangulo rectangulo "<<std::endl;
     }
-    std::cout<<"Representan los lados de un triangulo rectangulo"<<a<<std::endl;
+    std::cout<<"Los numeros si representan los lados de un triangulo rectangulo "<<std::endl;
     return 0;
 }
 float pita(float x,float x2)
