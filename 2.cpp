@@ -8,14 +8,14 @@ int main(void)
     float r;
     float r1;
     float r2;
-    char a="Si";
+    boolean a=true;
     std::cin>>r;
     std::cin>>r1;
     std::cout<<"Ingrese la hipotenusa"<<std::endl;
     std::cin>>r2;
     if(r2!=pita(r,r1))
     {
-       char a="No";
+       boolean a=false;
     }
     std::cout<<"Representan los lados de un triangulo rectangulo"<<a<<std::endl;
     return 0;
