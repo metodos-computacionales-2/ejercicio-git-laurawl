@@ -8,16 +8,19 @@ int main(void)
     float r;
     float r1;
     float r2;
-    string a="si";
+    string a="Si";
     std::cin>>r;
     std::cin>>r1;
     std::cout<<"Ingrese la hipotenusa"<<std::endl;
     std::cin>>r2;
-    if(r2=pita(
+    if(r2!=pita(r,r1))
+    {
+        a="No";
+    }
     std::cout<<"Representan los lados de un triangulo rectangulo"<<a<<std::endl;
     return 0;
 }
 float pita(float x,float x2)
 {
-    return sqrt(x*x+x2*x2)
+    return sqrt(x*x+x2*x2);
 }
